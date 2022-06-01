@@ -66,6 +66,7 @@ Form objects are defined by their `type` property.  The table below describes th
 | color      | Displays a color picker  |    |
 | date      | Displays a date field with date picker  |  Allows optional text entry  |
 | datetimelocal      | Displays a date and time field with date/time picker  | Allows optional text entry   |
+| dropdown | Displays a dropdown list | Contains an `options` array which lists the items in the dropdown. Choices are mutually exclusive. |
 | email      | Displays a text field that validates email address format  |    |
 | file      | Displays a file picker object  |    |
 | hidden      | Creates a hidden fields  | This object can be used to hold values/variables off screen   |
